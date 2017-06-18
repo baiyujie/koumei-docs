@@ -4,9 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" />
-    <title>Document</title>
-<link href="vendorbbc5729ca8813145251a.css" rel="stylesheet"></head>
+    <title>koumei 组件文档</title>
+<link href="vendor716e8171c81acecd170c.css" rel="stylesheet"><link href="bundle3ed23220b2adae096f8b.css" rel="stylesheet"></head>
 <body :controller="root">
-    <div ms-html="@currentPage"></div>
-<script type="text/javascript" src="manifest5548bbfe957e3a4c8e5d.js"></script><script type="text/javascript" src="vendorbbc5729ca8813145251a.js"></script><script type="text/javascript" src="appddd9ea9c029065fcaf1c.js"></script></body>
+    <xmp is="ms-layout">
+        <ms-layout-header :widget="{fixed:true}">
+            <h3>koumei 组件文档</h3>
+        </ms-layout-header>
+        <ms-layout-footer :widget="{fixed:true}">
+            <div class="text-center" style="line-height: 30px;">
+                <a href="https://github.com/baiyujie/koumei" target="_blank">Github 仓库地址</a>
+            </div>
+        </ms-layout-footer>
+        <ms-layout :widget="{style:{backgroundColor:'#ececec'}}">
+            <ms-layout-sider :widget="{fixed:true}">
+                <wbr is="doc-sidebar"/>
+            </ms-layout-sider>
+            <ms-layout-content>
+                <div class="koumei-layout-content-wrapper">
+                    <div ms-html="@currentPage"></div>
+                </div>
+            </ms-layout-content>
+        </ms-layout>
+    </xmp>
+    <script>
+        document.body.style.height = document.body.style.minHeight = window.document.documentElement.clientHeight + 'px';
+    </script>
+<script type="text/javascript" src="manifest46b74a0279ec1dd6e1d5.js"></script><script type="text/javascript" src="vendor716e8171c81acecd170c.js"></script><script type="text/javascript" src="app3ed23220b2adae096f8b.js"></script></body>
 </html>
