@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" />
-    <title>koumei 组件文档</title>
-<link href="vendor23f2225a36fba1daecb3.css" rel="stylesheet"><link href="bundle7a8bb228a8072f80c0be.css" rel="stylesheet"></head>
+    <title>Koumei 一套组件库</title>
+<link href="vendor9cd14b5ab8ce5a730fed.css" rel="stylesheet"><link href="bundle786c0fd0160fc87c8fa3.css" rel="stylesheet"></head>
 <body :controller="root">
     <xmp is="ms-layout">
         <ms-layout-header :widget="{fixed:true}">
-            <h3>koumei 组件文档</h3>
+            <span class="logo-text">Koumei</span>
         </ms-layout-header>
         <ms-layout-footer :widget="{fixed:true}">
-            <div class="text-center" style="line-height: 30px;">
+            <div class="text-center">
                 <a href="https://github.com/baiyujie/koumei" target="_blank">Github 仓库地址</a>
             </div>
         </ms-layout-footer>
-        <ms-layout :widget="{style:{backgroundColor:'#ececec'}}">
+        <ms-layout>
             <ms-layout-sider :widget="{fixed:true}">
                 <wbr is="doc-sidebar"/>
             </ms-layout-sider>
@@ -28,7 +28,9 @@
         </ms-layout>
     </xmp>
     <script>
-        document.body.style.height = document.body.style.minHeight = window.document.documentElement.clientHeight + 'px';
+        window.onresize = function () {
+            document.body.style.height = document.body.style.minHeight = window.document.documentElement.clientHeight + 'px';
+        }
     </script>
-<script type="text/javascript" src="manifest5b8eae39844ed9143aa8.js"></script><script type="text/javascript" src="vendor23f2225a36fba1daecb3.js"></script><script type="text/javascript" src="app7a8bb228a8072f80c0be.js"></script></body>
+<script type="text/javascript" src="manifest694bb28d57d7ed5b6fc9.js"></script><script type="text/javascript" src="vendor9cd14b5ab8ce5a730fed.js"></script><script type="text/javascript" src="app786c0fd0160fc87c8fa3.js"></script></body>
 </html>
