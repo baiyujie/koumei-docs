@@ -263,8 +263,8 @@ th {
 @font-face {
   font-family: 'Glyphicons Halflings';
 
-  src: url(glyphicons-halflings-regular.eot);
-  src: url(glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype'), url(glyphicons-halflings-regular.woff2) format('woff2'), url(glyphicons-halflings-regular.woff) format('woff'), url(glyphicons-halflings-regular.ttf) format('truetype'), url(glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg');
+  src: url(assets/fonts/glyphicons-halflings-regular.eot);
+  src: url(assets/fonts/glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype'), url(assets/fonts/glyphicons-halflings-regular.woff2) format('woff2'), url(assets/fonts/glyphicons-halflings-regular.woff) format('woff'), url(assets/fonts/glyphicons-halflings-regular.ttf) format('truetype'), url(assets/img/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg');
 }
 .glyphicon {
   position: relative;
@@ -6762,8 +6762,8 @@ button.close {
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url(fontawesome-webfont.eot);
-  src: url(fontawesome-webfont.eot?#iefix&v=4.7.0) format('embedded-opentype'), url(fontawesome-webfont.woff2) format('woff2'), url(fontawesome-webfont.woff) format('woff'), url(fontawesome-webfont.ttf) format('truetype'), url(fontawesome-webfont.svg#fontawesomeregular) format('svg');
+  src: url(assets/fonts/fontawesome-webfont.eot);
+  src: url(assets/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0) format('embedded-opentype'), url(assets/fonts/fontawesome-webfont.woff2) format('woff2'), url(assets/fonts/fontawesome-webfont.woff) format('woff'), url(assets/fonts/fontawesome-webfont.ttf) format('truetype'), url(assets/img/fontawesome-webfont.svg#fontawesomeregular) format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -9187,5 +9187,3 @@ hue-6-2: #c18401
 .hljs-link {
   text-decoration: underline;
 }
-
-/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJ2ZW5kb3I5Y2QxNGI1YWI4Y2U1YTczMGZlZC5jc3MiLCJzb3VyY2VSb290IjoiIn0=*/

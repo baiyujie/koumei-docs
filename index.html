@@ -5,32 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" />
     <title>Koumei 一套组件库</title>
-<link href="vendor9cd14b5ab8ce5a730fed.css" rel="stylesheet"><link href="bundle786c0fd0160fc87c8fa3.css" rel="stylesheet"></head>
+<link href="vendord8c038e11dbb76967588.css" rel="stylesheet"><link href="bundlefbe8c2145086f15048dc.css" rel="stylesheet"><link href="vendorfbe8c2145086f15048dc.css" rel="stylesheet"></head>
 <body :controller="root">
-    <xmp is="ms-layout">
-        <ms-layout-header :widget="{fixed:true}">
-            <span class="logo-text">Koumei</span>
-        </ms-layout-header>
-        <ms-layout-footer :widget="{fixed:true}">
-            <div class="text-center">
-                <a href="https://github.com/baiyujie/koumei" target="_blank">Github 仓库地址</a>
+    <wbr is="doc-header"/> 
+    <xmp is="ms-layout-doc"> 
+        <ms-layout-doc-content>
+            <div class="koumei-layout-doc-content-sider" ms-visible="hideMenu">
+                <wbr is="doc-sidebar" :widget="{locale:@locale,tabIndex:@tabIndex}"/>
             </div>
-        </ms-layout-footer>
-        <ms-layout>
-            <ms-layout-sider :widget="{fixed:true}">
-                <wbr is="doc-sidebar"/>
-            </ms-layout-sider>
-            <ms-layout-content>
-                <div class="koumei-layout-content-wrapper">
-                    <div ms-html="@currentPage"></div>
-                </div>
-            </ms-layout-content>
-        </ms-layout>
+            <div class="koumei-layout-doc-content-wrapper">
+                <div ms-html="@currentPage"></div>
+            </div>
+        </ms-layout-doc-content>
+    </xmp> 
+    <xmp is="ms-layout-doc-footer" :widget="{fixed:true}">
+        <div class="text-center">
+            <a href="https://github.com/baiyujie/koumei" target="_blank">Github 仓库地址</a>
+        </div>
     </xmp>
     <script>
         window.onresize = function () {
             document.body.style.height = document.body.style.minHeight = window.document.documentElement.clientHeight + 'px';
         }
     </script>
-<script type="text/javascript" src="manifest694bb28d57d7ed5b6fc9.js"></script><script type="text/javascript" src="vendor9cd14b5ab8ce5a730fed.js"></script><script type="text/javascript" src="app786c0fd0160fc87c8fa3.js"></script></body>
+<script type="text/javascript" src="manifest1a44986f61115e8a93b8.js"></script><script type="text/javascript" src="vendord8c038e11dbb76967588.js"></script><script type="text/javascript" src="appfbe8c2145086f15048dc.js"></script></body>
 </html>
